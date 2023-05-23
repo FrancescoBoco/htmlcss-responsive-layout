@@ -41,17 +41,10 @@ section{
     background-color: #9593DE;
 }
 
-
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    }
-    
-.card{
-    width: 100% ;
-    padding: 10px;
-    margin: 10px 0;
+.b-color-white{
+    background-color: white;
 }
+
 
   /* HEADER  */
 
@@ -90,27 +83,65 @@ section{
     color: white;
     padding: 10px;
 }
+/* MAIN  */
+/* SECTION ONE  */
 
-
-
-.card > .text {
-    text-align: center;
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+.card{
+    width: 100% ;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 
- /* SECTION TWO  */
+
+
+
+
+/* SECTION TWO  */
+.cards-2{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.card-2{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+ }
+
+ .card-2:first-child{
+    color: white;
+ }
+
+ /* SECTION THREE  */
+ .cards-3{
+    display: flex;
+    flex-wrap: wrap;
+    }
 
  .card-3{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
  }
+ .card-3 > .text {
+    text-align: center;
+}
 
  .fist-card-3-content{
 
  }
 
-   /* RESPONSIVE  */
+   /*
+   --------------------------------------------
+    RESPONSIVE
+    --------------------------------------------
+    */
 
 
 
@@ -166,6 +197,10 @@ section{
         display: none;
     }
 
+
+     /* MAIN  */
+
+     /* SECTION ONE  */
     .fist-card-content{
         display: flex;
     }
@@ -175,7 +210,24 @@ section{
         padding: 10px;
     }
 
-    /* MAIN  */
+     /* SECTION TWO  */
+
+     .card-2{
+        width: 50%;
+        
+     }
+
+     .card-2:last-child{
+        align-items: flex-end;
+     }
+
+     .card-2-2{
+        align-items: flex-end;
+        
+     }
+
+
+   
 
 
 
