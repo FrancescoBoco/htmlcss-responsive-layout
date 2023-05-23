@@ -14,3 +14,172 @@
 }
 
 /* GENERAL */
+
+
+
+.container{
+    width: 90%;
+    margin: auto ;
+}
+ 
+section{
+    margin-top: 30px
+}
+
+/* COLORS  */
+
+.b-color-blue{
+    background-color: #3484F5;
+}
+
+.b-color-light-blue{
+    background-color: #BCDCFC;
+}
+
+
+.color-purple{
+    background-color: #9593DE;
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+.card{
+    width: 100% ;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+  /* HEADER  */
+
+.header-main-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3484F5;
+}
+
+.nav-container {
+    display: none;
+}
+
+.nav-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.logo-container{
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+
+
+}
+
+.hamburger-container{
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+}
+
+
+
+.card > .text {
+    text-align: center;
+}
+
+
+ /* SECTION TWO  */
+
+ .card-3{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+ }
+
+ .fist-card-3-content{
+
+ }
+
+   /* RESPONSIVE  */
+
+
+
+   /* TABLET --> DA 768 IN POI  */
+
+   @media screen and (min-width: 768px){
+
+    /* HEADER  */
+
+
+    /* MAIN  */
+
+    .card{
+        width: calc(100% / 3);
+    }
+
+    .card:first-child{
+        width: calc((100% / 3) * 2 );
+    }
+
+    /* SECOND SECTION  */
+
+    .fist-card-3-content {
+        display: flex
+    }
+
+    .fist-card-3-content > div {
+        padding: 10px;
+    }
+    
+    /* FOOTER  */
+
+
+}
+
+
+/* DESKTOP --> DA 992 IN POI  */
+
+@media screen and (min-width: 992px){
+
+   
+
+    .container{
+        width: 70%;
+    }
+
+     /* HEADER  */
+
+    .nav-container{
+    display: block;
+    }
+    .hamburger-container{
+        display: none;
+    }
+
+    .fist-card-content{
+        display: flex;
+    }
+
+    .first-card-content > div{
+        width: 50%;
+        padding: 10px;
+    }
+
+    /* MAIN  */
+
+
+
+    /* FOOTER  */
+
+
+}
