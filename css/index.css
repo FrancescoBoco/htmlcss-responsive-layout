@@ -46,16 +46,25 @@ section{
 }
 
 
+.color-black{
+    background-color: #333333;
+
+}
+
+
   /* HEADER  */
 
 .header-main-content{
     display: flex;
     justify-content: space-between;
     background-color: #3484F5;
+    align-items: center;
 }
 
 .nav-container {
     display: none;
+    vertical-align: middle;
+
 }
 
 .nav-container ul {
@@ -68,20 +77,30 @@ section{
     text-decoration: none;
     color: white;
     padding: 10px;
+    font-size:0.9em;
 }
 
 .logo-container{
     font-size: 2em;
     color: white;
     padding: 10px;
-
-
+    padding-top: 20px;
 }
+
+
+#li-button{
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+}
+    
 
 .hamburger-container{
     font-size: 2em;
     color: white;
     padding: 10px;
+    padding-top: 20px;
+
 }
 /* MAIN  */
 /* SECTION ONE  */
@@ -129,13 +148,56 @@ section{
     padding: 10px;
     margin: 10px 0;
  }
- .card-3 > .text {
+  .text {
     text-align: center;
 }
 
  .fist-card-3-content{
 
  }
+
+ /* SECTION FOUR  */
+
+ .cards-4{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+ .card-4{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+ }
+
+ /* SECTION FIVE  */
+
+ .cards-5{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+ .card-5{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+ }
+
+
+
+ /* FOOTER  */
+footer:last-child{
+    margin:0;
+}
+
+ .container-footer{
+    width: 90%;
+    margin: auto ;
+}
+
+    .card-6{
+        text-align: center;
+        color: white;
+    }
 
    /*
    --------------------------------------------
@@ -158,6 +220,7 @@ section{
         width: calc(100% / 3);
     }
 
+    
     .card:first-child{
         width: calc((100% / 3) * 2 );
     }
@@ -170,6 +233,12 @@ section{
 
     .fist-card-3-content > div {
         padding: 10px;
+    }
+
+    /* SECTION FOURTH */
+
+    .card-4{
+        width: 50%;
     }
     
     /* FOOTER  */
@@ -197,6 +266,15 @@ section{
         display: none;
     }
 
+    .logo-container{
+        width: 80px;
+        padding: 10px;
+        font-size:medium;
+    }
+
+    .nav-container ul li a  {
+        
+    }
 
      /* MAIN  */
 
@@ -226,12 +304,28 @@ section{
         
      }
 
+     /* SECTION FOUR */
 
-   
+    .card-4{
+        width: calc(100% / 3);
+    }
+
+   /* SECTION FIVE */
+
+   .card-5:first-child{
+        width: 70%;
+   }
+
+   .card-5:last-child{
+    width: 30%;
+}
 
 
 
     /* FOOTER  */
 
-
+    .container-footer{
+        width: 50%;
+        margin: auto;
+    }
 }
