@@ -26,6 +26,24 @@ section{
     margin-top: 30px
 }
 
+img{
+    width: 100%;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+
+
+p{
+    color: #5E6E7D;
+    word-spacing: 5px;
+    line-height: 1.2;
+    font-weight:bolder;
+}
+
+
 /* COLORS  */
 
 .b-color-blue{
@@ -34,6 +52,10 @@ section{
 
 .b-color-light-blue{
     background-color: #BCDCFC;
+}
+
+.t-color-blue{
+    color: #3484F5;
 }
 
 
@@ -108,13 +130,37 @@ section{
 .cards{
     display: flex;
     flex-wrap: wrap;
-    }
+}
+
+
     
 .card{
     width: 100% ;
     padding: 10px;
     margin: 10px 0;
+    text-align: center;
 }
+
+.card:first-child{
+    text-align: start;
+}
+
+.link-blue{
+    padding:5px 10px 5px 10px;
+    color:white;
+    text-decoration: none;
+    font-size: 1.3em;
+    background-color: #3484F5;
+    border-radius: 15px;
+}   
+
+.font-awesome-blue{
+    font-size: 5em;
+    color: #3484F5;
+}
+
+
+
 
 
 
@@ -216,15 +262,28 @@ footer:last-child{
 
     /* MAIN  */
 
+    .margin-top-20 > img {
+        width: 50%;
+    }
+
     .card{
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 10px );
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .cards{
+        margin: 0 -5px;
+    }
+    
+    .card:first-child{
+        width: calc((100% / 3) * 2 - 10px );
+       
     }
 
     
-    .card:first-child{
-        width: calc((100% / 3) * 2 );
-    }
 
+  
     /* SECOND SECTION  */
 
     .fist-card-3-content {
@@ -286,6 +345,10 @@ footer:last-child{
     .first-card-content > div{
         width: 50%;
         padding: 10px;
+    }
+
+    .margin-top-20 > img {
+        width: 100%;
     }
 
      /* SECTION TWO  */
