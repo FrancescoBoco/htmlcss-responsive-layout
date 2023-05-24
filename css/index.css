@@ -43,6 +43,13 @@ p{
     font-weight:bolder;
 }
 
+.p-white {
+    color: white ;
+    word-spacing: 5px;
+    line-height: 1.2;
+    font-weight:bolder;
+}
+
 
 /* COLORS  */
 
@@ -55,6 +62,10 @@ p{
 }
 
 .t-color-blue{
+    color: #3484F5;
+}
+
+.t-color-white{
     color: #3484F5;
 }
 
@@ -160,13 +171,6 @@ p{
 }
 
 
-
-
-
-
-
-
-
 /* SECTION TWO  */
 .cards-2{
     display: flex;
@@ -177,12 +181,37 @@ p{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
+    text-align: center;
  }
 
  .card-2:first-child{
     color: white;
  }
 
+ .card-2:last-child{
+    border-radius: 30px;    
+}
+
+.arrow-down-card-2{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    vertical-align: middle;
+    
+}
+
+.arrow-down-card-2 > div {
+    width: 53px;
+    height: 53px;
+    background-color: #9593DE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
  /* SECTION THREE  */
  .cards-3{
     display: flex;
